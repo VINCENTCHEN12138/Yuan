@@ -1,0 +1,4 @@
+<van-cell-group>
+    <van-field value="{{ text }}" label="评价" type="textarea" placeholder="请输入评价" bind:change="change" autosize border="{{ false }}" />
+</van-cell-group>
+<van-submit-bar button-text="提交评论" bind:submit="success" />

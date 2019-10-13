@@ -1,0 +1,16 @@
+<van-cell-group>
+    <van-cell wx:for="{{items}}">
+        <van-card num="{{item.amount}}" price="{{item.Goods.price }}" desc="{{item.Goods.goodinfo}}" title="{{item.Goods.Name}}" thumb="{{'http://127.0.0.1:8000/media/'+item.Goods.pic}}">
+            <view slot="footer">
+                <van-button size="mini" disabled="{{item.status==='1'?false:true}}" data-goodid="{{item.goodid}}" data-id="{{item.id}}" data-index="{{index}}" bind:click="success">
+                    确认收货
+                </van-button>
+                <van-button disabled="{{item.status==='2'?false:true}}" size="mini" data-goodid="{{item.goodid}}" data-id="{{item.id}}" bind:click="evaluate">
+                    评价
+                </van-button>
+            </view>
+        </van-card>
+    </van-cell>
+</van-cell-group>
+<view wx:if="{{items}}"></view>
+<view wx:else>还未有订单</view>

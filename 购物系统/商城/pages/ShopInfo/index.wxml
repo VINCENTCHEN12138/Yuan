@@ -1,0 +1,13 @@
+<van-panel title="{{item.Name}}" desc="{{item.goodinfo}}" use-footer-slot>
+    <view>
+        <image src="{{'http://127.0.0.1:8000/media/'+item.pic}}" />
+    </view>
+    <view slot="footer" style="float:right;color:red">
+        <view>{{item.price}}</view>
+    </view>
+</van-panel>
+<van-goods-action>
+    <van-goods-action-button text="加入收藏夹" bind:click="onClickButton" data-tag="fav" />
+    <van-goods-action-button text="加入购物车" type="warning" data-tag="addcart" bind:click="onClickButton" />
+    <van-goods-action-button text="立即购买" bind:click="onClickButton" data-tag="buy" />
+</van-goods-action>

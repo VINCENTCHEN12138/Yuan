@@ -1,0 +1,6 @@
+<van-cell-group>
+    <van-cell wx:for="{{items}}">
+        <van-card price="{{item.price}}" desc="{{item.goodinfo}}" title="{{item.Name}}" thumb="{{'http://127.0.0.1:8000/media/'+item.pic}}" thumb-link="{{'../../pages/ShopInfo/index?goodid='+item.goodid}}"></van-card>
+    </van-cell>
+</van-cell-group>
+
