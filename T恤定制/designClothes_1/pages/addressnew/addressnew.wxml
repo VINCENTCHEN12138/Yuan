@@ -1,0 +1,37 @@
+<view class="contanier">
+  <view class="frist">
+    <view class="mess" >
+      <view id="mess1">姓名:</view>      
+      <view id="mess2"><input id="mess3" placeholder="输入联系人姓名"   /></view>      
+    </view>
+    <view class="mess" >
+      <view id="mess1">手机号码:</view>      
+      <view id="mess2"><input id="mess3" placeholder="输入手机号码"   /></view>      
+    </view>
+    <view class="mess" >
+      <view id="mess1">选择省份:</view>      
+      <view id="mess2"><input id="mess3" placeholder="输入手机号码"   /></view>      
+    </view>
+    <view class="mess" >
+      <view id="mess1">选择城市:</view>      
+      <view id="mess2"><input id="mess3" placeholder="输入手机号码"   /></view>      
+    </view>
+    <view class="mess" >
+      <view id="mess1">选择地区:</view>      
+      <view id="mess2"><input id="mess3" placeholder="输入手机号码"   /></view>      
+    </view>
+    <view class="mess" >
+      <view id="mess1">详细地址:</view>      
+      <view id="mess2"><input id="mess3" placeholder="输入手机号码"   /></view>      
+    </view>
+  </view>
+  <view class="second">
+    <view class="def" >
+      <view id="def1">设为默认地址</view>      
+      <view id="def2"><switch checked bindchange="switch1Change"/></view>      
+    </view>
+  </view>
+  <view class="feet">
+    <button id="feet" type="default">保存地址</button>
+  </view>
+</view>

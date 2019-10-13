@@ -1,0 +1,5 @@
+<view class="classname">
+<view class="pic_box" wx:for="{{tempFilePath}}">
+<image class="pic" src="https://www.dexin365.com/static/txudingzhi201708/image/{{item}}" data-value="../image/{{item}}" catchtap="picClick"></image>
+</view>
+</view>

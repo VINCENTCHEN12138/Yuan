@@ -1,0 +1,50 @@
+{
+  "pages":[
+    
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/user/user",
+    "pages/detail/detail",
+    "pages/buy/buy",
+    "pages/car/car",
+    "pages/detailAdd/detailAdd",
+    "pages/addresslist/addresslist",
+    "pages/addressnew/addressnew",
+    "pages/addressalt/addressalt",
+    "pages/myorderpay/myorderpay",
+    "pages/myordersend/myordersend",
+    "pages/myordertake/myordertake",
+    "pages/myorder/myorder"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#1A191F",
+    "navigationBarTitleText": "一件起订在线设计T恤",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "selectedColor": "#F56262",
+    "color":"#4A4A4A",
+    "list": [{
+      "iconPath":"pages/image/index_ord0.png",
+      "selectedIconPath":"pages/image/index_ord1.png",
+      "pagePath": "pages/index/index",
+      "text": "定制"
+    },
+    {
+      "iconPath": "pages/image/index_car0.png",
+      "selectedIconPath": "pages/image/index_car1.png",
+      "pagePath": "pages/car/car",
+      "text": "购物车"
+    },
+    {
+      "iconPath": "pages/image/index_my0.png",
+      "selectedIconPath": "pages/image/index_my1.png",
+      "pagePath": "pages/user/user",
+      "text": "我的"
+    }
+    ]
+  }
+}

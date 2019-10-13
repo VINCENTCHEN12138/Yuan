@@ -1,0 +1,126 @@
+/* pages/car/car.wxss */
+.contanier{
+  width: 100%;
+  background-color: whitesmoke;
+  font-size: 26rpx;
+  font-family:"微软雅黑";
+  padding-top: 20rpx;
+  margin: 0rpx;
+
+  height: 100%;
+}
+
+.order{
+  width: 100%;
+  background-color: white;
+  margin-bottom: 20rpx;
+ 
+}
+
+.first{
+  width: 98%;
+
+  background-color: #ffffff;
+  display: flex;
+  padding-top: 30rpx;
+  margin-bottom: 30rpx;
+  padding-bottom: 20rpx;
+
+  justify-content: space-around;
+
+
+}
+.check{
+  padding-top: 60rpx;
+  
+}
+#check{
+  width: 25rpx;
+  height: 25rpx;
+}
+#pic{
+  height:200rpx;
+  width:208rpx;
+  padding-left: 20rpx;
+
+}
+.message{ 
+
+
+  padding-right: 20rpx;
+ 
+}
+#message2{ 
+
+ color: #999999;
+ padding-top: 40rpx;
+ font-size: 24rpx;
+ 
+}
+#money{
+  
+  padding-top: 10rpx;
+  color: #F56262;
+
+
+}
+
+.del{
+   padding-top: 160rpx;
+}
+#del{
+  padding-left: 1prpx;
+  color: #999999;
+}
+#picdelete{
+  width: 28rpx;
+  height: 23rpx; 
+
+
+}
+.second{
+  width: 100%;
+
+  padding-top: 0rpx;
+  padding-bottom: 0rpx;
+
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+
+.paymessage{
+  padding-top: 20rpx;
+  padding-left: 20rpx;
+
+}
+
+#paymessage{
+  color: #999999;
+  padding-left: 50rpx;
+
+}
+.allcheck{
+  padding-right: 10rpx;
+  color: #666666;
+}
+.paybutton{
+
+  margin-top: 10rpx;
+  margin-right: 20rpx;
+}
+#paybutton{
+
+  background-color: #F56262;
+  color: #ffffff;
+  font-size: 26rpx;
+
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+
+  height: 60rpx;
+  width: 160rpx;
+
+
+}

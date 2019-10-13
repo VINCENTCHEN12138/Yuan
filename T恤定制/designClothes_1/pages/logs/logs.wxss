@@ -1,0 +1,18 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+.pic_box{
+  display:inline-block; 
+}
+.pic{
+  width: 200rpx;
+  height: 238rpx;
+  margin-right: 20rpx;
+  margin-left: 20rpx;
+  margin-top: 40rpx;
+}

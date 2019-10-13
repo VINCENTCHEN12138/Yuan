@@ -1,0 +1,31 @@
+<view class="contanier">
+  <view wx:for="1">
+    <view class="">
+      <view class="first">
+        
+        <image src="../image/m_dizhi.png" id="addpic" ></image>
+        <view class="addre">
+          <view class="addre1">吴颖慧</view>
+          <view class="addre2">辽宁省大连市开发区辽河西路18号大连民族大学信通学院</view>
+        </view>      
+        <view class="addre3">13500000000</view>    
+      </view>
+      <view class="second">       
+        <view class="secondl">
+          <radio  class="check"  checked="{{item.checked}}"/>
+          <test class="check">默认地址</test>
+        </view>
+        <view class="secondr">
+          <test class="ope">编辑</test>
+          <test class="ope"> | </test>
+          <test class="ope">删除</test>
+        </view>
+      </view>
+
+
+    </view>
+  </view>  
+  <view class="feet">
+    <button id="feet" type="default" catchtap="addressnew">添加地址</button>
+  </view>
+</view>

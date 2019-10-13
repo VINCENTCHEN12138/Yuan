@@ -1,0 +1,28 @@
+<view class="contanier">
+  
+  <view wx:for="1">
+    <view class="order">
+      <view class="first">
+        <view class="time" id="time">2017-08-19 07：00</view>
+        <view class="tatus" id="status">待付款</view>
+      </view>
+      <view class="second">
+        <image src="https://www.dexin365.com/static/txudingzhi201708/image/t_w_pro111.png" id="pic"></image>
+        <view class="message" >
+          <view  id="message1" >用户名的款式颜色...</view>
+          <view  id="message2" >尺码 男款 L 2</view>
+        </view>
+        <view class="money" id="money" >¥0.01</view>
+      </view>
+      <view class="third">
+        
+        <image src="../image/c_laji.png" id="picdelete"></image>
+        <view class="right">
+          <view class="paymessage"><text id="paymessage">共2件，总金额0.02</text></view>
+          <button class="paybutton" id="paybutton" type="default"   size="mini" catchtap="buy">立即支付</button>
+        </view>
+      </view>
+    </view>
+  </view>
+  
+</view>

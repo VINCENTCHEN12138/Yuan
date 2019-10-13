@@ -1,0 +1,3 @@
+<!--pages/buy/buy.wxml-->
+<button type="default" catchtap="getOpenId">支付1</button>
+<button type="default" catchtap="buy">支付2</button>

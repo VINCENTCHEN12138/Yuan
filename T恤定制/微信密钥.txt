@@ -1,0 +1,15 @@
+微信支付商户号
+1487345832
+申请对应的小程序
+欣欣向荣科技XINXIN（）
+小程序APPID
+wx7c6aec10bfe052ad
+API秘钥：xinxinxiangrongkejidalian2170707
+
+106.15.93.227
+root
+22
+密码xxxr)))000
+mysql用户名root
+密码rrrx)))000
+代码路径var/www/lee

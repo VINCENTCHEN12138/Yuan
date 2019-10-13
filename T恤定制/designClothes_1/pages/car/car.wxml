@@ -1,0 +1,32 @@
+<!--pages/car/car.wxml-->
+<view class="contanier">
+  
+  <view wx:for="1">
+    <view class="order">
+      
+      <view class="first">
+        <checkbox class="check" id="check"  checked="{{item.checked}}"/>
+        <image src="https://www.dexin365.com/static/txudingzhi201708/image/t_w_pro111.png" id="pic"></image>
+        <view class="message" >
+          <view  id="message1" >用户名的款式颜色...</view>
+          <view  id="message2" >尺码 男款 L 2</view>
+          <view class="money" id="money" >¥0.01</view>
+        </view>
+        <view class="del">
+          <image src="../image/c_laji.png" id="picdelete"></image>
+          <text id="del"> 删除</text>
+        </view>
+      </view>
+      
+    </view>
+  </view>
+  <view class="second">       
+    <view class="paymessage">
+      <checkbox class="allcheck"  checked="{{item.checked}}"/>
+      <test class="allcheck">全选</test>
+      <text id="paymessage">合计：0.02</text>
+    </view>
+    <button class="paybutton" id="paybutton" type="default"   size="mini" catchtap="buy">结算</button>
+  
+  </view>
+</view>

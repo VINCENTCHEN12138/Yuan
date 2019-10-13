@@ -1,0 +1,130 @@
+<!--基本面板-->
+<view class="container">
+<form>
+  <!--上部按钮-->
+  <view class="status">
+    <button type="default" class="status-item" id="status-1" plain="true" bindtap="hidden_click"><text >品类 款式 颜色</text></button>
+    <button type="default" class="status-item" id="status-2" bindtap="succe" size="mini">完成定制</button>
+  </view>
+
+  <!--隐藏的view-->
+  <view class="hidden" hidden="{{hidden}}"  catchtap="hidden_click">
+
+    <!--循环获得行数和首按键（品类）-->
+    
+      <!--按键的视图-->
+      <view class="hidden-item">
+        <!--首按键-->
+        <button type="default" plain="true" id="hidden-item1" ><text>品类</text></button>
+          <!--后面按键的视图-->
+            <scroll-view scroll-x style="width:600rpx;">
+              <view class="button-item1" >
+                <!--获得后面按键-->
+                <view wx:for="{{message}}">
+                <!--后面的按键（品类的子按键）-->
+                <view wx:if="{{index==indexs}}">
+                  <button type="default" class="buttons"data-value="{{item}}" id="buttonchange1"data-index="{{index}}" size="mini"  catchtap="buttonClick1">{{item.name}}</button>
+                </view>
+                <view wx:else>
+                  <button type="default" class="buttons"data-value="{{item}}" id="buttons" data-index="{{index}}" size="mini"  catchtap="buttonClick1">{{item.name}}</button>
+                </view>
+                </view>
+              </view>
+            </scroll-view>
+           
+        </view>
+
+      <view class="hidden-item">
+        <!--首按键-->
+        <button type="default" plain="true" id="hidden-item1" ><text>款式</text></button>
+          <!--后面按键的视图-->
+            <scroll-view scroll-x style="width:600rpx;">
+              <view class="button-item2" >
+                <!--获得后面按键-->
+                <view wx:for="{{message[indexs].value}}">
+                <!--后面的按键（品类的子按键）-->
+                  <view wx:if="{{index==(b-1)}}">
+                  <button type="default" class="buttons"data-value="{{item}}" id="buttonchange2"data-index="{{index}}" size="mini"  catchtap="buttonClick2">{{item}}</button>
+                  </view>
+                <view wx:else>
+                  
+                  <button type="default" class="buttons"data-value="{{item}}" id="buttons" data-index="{{index}}" size="mini"  catchtap="buttonClick2">{{item}}</button>
+                </view>  
+                 </view>
+              </view>
+            </scroll-view>
+           
+        </view>
+
+        <view class="hidden-item">
+        <!--首按键-->
+        <button type="default" plain="true" id="hidden-item1" ><text>颜色</text></button>
+          <!--后面按键的视图-->
+            <scroll-view scroll-x style="width:600rpx;">
+              <view class="button-item3" >
+                <!--获得后面按键-->
+                <view wx:for="{{message[indexs].color}}">
+                <!--后面的按键（品类的子按键）-->
+                 <view wx:if="{{index==(c-1)}}">
+                  <button type="default" class="buttons"data-value="{{item}}" id="buttonchange3"data-index="{{index}}" size="mini"  catchtap="buttonClick3">{{item}}</button>
+                  </view>
+                <view wx:else>
+                 <button type="default" class="buttons"data-value="{{item}}" id="buttons" data-index="{{index}}" size="mini"  catchtap="buttonClick3">{{item}}</button>
+                </view>
+                </view>
+              </view>
+            </scroll-view>
+           
+        </view>
+
+
+      </view>  
+
+      
+    
+  <!--底色图片视图-->
+  <view id="clothespic">
+    <!--底色图片-->
+   <image src="https://www.dexin365.com/static/txudingzhi201708/image/t_w_{{zhengfan}}{{a}}{{b}}{{c}}.png" class="pic">
+    <!--可移动区域-->
+      <movable-area class="pic-father" >
+        <movable-view  style="height: {{yz}}rpx; width: {{xz}}rpx; margin: 60rpx;  " direction="all" catchtouchmove="mover" damping="20" friction="2">
+          <!--自定义的图片-->
+          <image src="{{tempFilePath}}" style="height: {{yz}}rpx; width: {{xz}}rpx;border-style:{{borderchang}};border-width:1rpx;border-color:#8F9193;" catchtap="chosepic"></image>
+          <!--缩放按键-->
+          <image hidden="{{hid}}" src="../image/co_change.png" catchtouchmove="butmove" id="zoom1"></image>
+          <!--关闭按键-->
+          <image hidden="{{hid}}"src="../image/co_close.png" catchtap="butclose" id="zoom2"></image>
+        
+                    <!--
+                    <button type="mini"  catchtouchmove="butmove"id="zoom1" plain="true" hidden="tu">缩放</button>
+                    
+                    <button type="mini"  catchtouchmove="butmove"id="zoom1" plain="true" hidden="tu">缩放</button>
+                    -->
+        </movable-view>
+      </movable-area>
+      
+  </image>
+  <view class="chose">
+    <button type="mini" class="chosebutton" data-value="0" bindtap="changezhengfan"><text style="color:{{colors[0]}}">正面</text></button>
+    <button type="mini" class="chosebutton" data-value="1" bindtap="changezhengfan"><text style="color:{{colors[1]}}">反面</text></button>
+  </view>
+  </view>
+
+  
+
+  <view class="cir">
+    <image src="../image/c_blue.png" class="cir-item"id="cir-item1" >相册</image>
+    <image src="../image/c_blue.png" class="cir-item"id="cir-item2" catchtap="chosepic">文字</image>
+    <image src="../image/c_blue.png" class="cir-item"id="cir-item3" >素材库</image>
+    <text class="cir-item" id="it1" catchtap="chosepic">相册</text>
+    <text class="cir-item" id="it2">文字</text>
+    <text class="cir-item" id="it3" catchtap="sucai">素材</text>
+   
+  </view>
+
+
+
+
+</form>
+</view>

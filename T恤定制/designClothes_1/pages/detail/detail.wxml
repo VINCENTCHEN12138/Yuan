@@ -1,0 +1,58 @@
+<view class="container" id="container" >
+  <image src="https://www.dexin365.com/static/txudingzhi201708/image/t_w_pro{{a}}{{b}}{{c}}.png" class="pic"></image>
+  <image class="classname"style="top:{{y}}rpx;left:{{x}}rpx;width:{{xz}}rpx;height:{{yz}}rpx"src="{{tempFilePath}}"></image>
+  <view class="first">
+    <image src="{{url}}" id="userpic"></image>
+    <text id="username">{{name}}</text>
+    <view class="title1"><text id="title1">虎斑小小的T恤女款17春白色</text></view>
+    <view class="title2">      
+      <view class="" id="price">¥ 0.01</view>      
+      <view class="price-d">
+        <view class="">首单立减</view>
+        <view class="">20</view>
+      </view>
+    </view>
+    <view class="title3" id="title3">原价:103</view>
+    <view class="title3">快递:免费</view>
+  </view>
+  <view class="line15rpx"></view>
+  <view class="classname" hidden="{{hid}}">
+    <view class="classname1" >
+      <text>尺码</text>
+      <view class="classname2">
+        <button type="default" class="buttons">S</button>
+        <button type="default"class="buttons">M</button>
+        <button type="default"class="buttons">L</button>
+      </view>
+      <view class="classname2">
+        <button type="default"class="buttons">XL</button>
+        <button type="default"class="buttons">XXL</button>
+        <button type="default"class="buttons">XXXL</button>
+      </view>
+    </view>
+    <view class="classname3" >
+      <text>数量</text>
+      <view class="classname2">
+        <button type="default" class="buttons" style="margin:0px;" catchtap="minus">-</button>
+        <input type="number" value="{{num}}" bindinput="setnum" />
+        <button type="default"class="buttons" style="margin:0px;"catchtap="add">+</button>
+
+      </view>
+    </view>
+  </view>
+  <view >
+    <button type="default" class="chose" id="chose"style="height:100rpx;" catchtap="pushchose">
+      <text>选择尺码数量</text>
+      <image src="../image/c_more.png" style="margin-right:50rpx;height:30rpx;width:30rpx;"></image>
+    </button>
+  </view>
+  <view class="detail">
+    <view  class="detail-item" id="1">产品详情</view>
+    <view type="default" class="detail-item">购买须知</view>
+  </view>
+  <view class="">
+    <text>详情(多个图片路径)</text>
+  </view>
+
+  <view class="buy"><button id="buy" type="default" catchtap="detailadd" >立即购买</button></view>
+</view>

@@ -1,0 +1,74 @@
+.contanier{
+  width: 100%;
+  height:100%;
+  background-color: whitesmoke;
+  font-size: 26rpx;
+  font-family:"微软雅黑";
+
+ 
+}
+.frist{
+
+  width: 100%;
+  background-color: white;
+  margin-bottom: 20rpx;
+  border-top: #efefef 1rpx solid;
+  border-bottom: #efefef 1rpx solid;
+
+}
+.mess{
+  background-color: white;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  display: flex;
+  flex-direction:row;
+
+}
+#mess1{
+  padding-left: 30rpx;
+  padding-top: 5rpx;
+}
+#mess2{
+  padding-left: 30rpx;
+  width: 70%;
+}
+#mess3{
+  font-size: 26rpx;
+}
+.second{
+  width: 100%;
+
+  background-color: white;
+  margin-bottom: 20rpx;
+  border-top: #efefef 1rpx solid;
+  border-bottom: #efefef 1rpx solid;
+  
+}
+.def{
+  background-color: white;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  display: flex;
+  justify-content: space-between;
+
+}
+#def1{
+  padding-left: 30rpx;
+  padding-top: 20rpx;
+}
+#def2{
+  padding-right: 30rpx;
+ 
+}
+.feet{
+  width: 100%;
+  position: absolute;
+  bottom: 0rpx
+
+
+}
+#feet{
+  background-color: #F56262;
+  color: #ffffff;
+  font-size: 30rpx;
+}

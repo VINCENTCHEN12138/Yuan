@@ -1,0 +1,205 @@
+.contanier{
+  width: 100%;
+  height:100%;
+  background-color: whitesmoke;
+  font-size: 26rpx;
+  font-family:"微软雅黑";
+
+ 
+}
+
+.first{
+  width: 100%;
+
+  background-color: white;
+  margin-bottom: 20rpx;
+  display: flex;
+  justify-content: center;
+  padding-top: 110rpx;
+  padding-bottom: 110rpx;
+  border-top: #efefef 1rpx solid;
+  border-bottom: #efefef 1rpx solid;
+}
+#addpic{
+  width:40rpx;
+  height:40rpx;
+  padding-right: 20rpx;
+  padding-left: 20rpx;
+
+}
+
+.first2{
+  width: 100%;
+  background-color: white;
+  margin-bottom: 20rpx;
+  display: flex;
+  flex-direction:row;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  border-top: #efefef 1rpx solid;
+  border-bottom: #efefef 1rpx solid;
+}
+#addpic2{
+  width:40rpx;
+  height:40rpx;
+  padding-right: 15rpx;
+  padding-left: 20rpx;
+  padding-top: 35rpx;
+}
+.addre{
+  padding-right: 40rpx;
+}
+.addre2{
+  padding-top: 10rpx;
+
+}
+.addre3{
+  padding-right: 20rpx;
+}
+#more{
+  width: 35rpx;
+  height: 35rpx;
+  padding-right: 30rpx;
+  padding-top: 40rpx;
+}
+.second{
+  width: 100%;
+
+  background-color: white;
+  margin-bottom: 20rpx;
+  border-top: #efefef 1rpx solid;
+  border-bottom: #efefef 1rpx solid;
+  
+}
+.guestname{
+  padding-top: 20rpx;
+  padding-left: 30rpx;
+  padding-bottom: 20rpx;
+}
+#userpic{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 100rpx;
+}
+#username{
+
+  padding-left: 30rpx
+}
+.con{
+  width: 100%;
+
+  background-color: #FAFAFA;
+  display: flex;
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
+
+  justify-content: space-around;
+
+}
+#pic{
+  height:200rpx;
+  width:208rpx;
+
+}
+.message{ 
+
+
+  padding-right: 160rpx;
+ 
+}
+#message2{ 
+
+ color: #999999;
+ padding-top: 10rpx;
+ font-size: 24rpx;
+ 
+}
+#money{
+  color: #F56262;
+  padding-top: 30rpx;
+
+
+}
+#num{
+  padding-top: 100rpx;
+}
+.mess{
+  background-color: white;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  display: flex;
+  flex-direction:row;
+
+}
+#mess1{
+  padding-left: 30rpx;
+  padding-top: 5rpx;
+}
+#mess2{
+  padding-left: 30rpx;
+  width: 70%;
+}
+#mess3{
+  font-size: 26rpx;
+}
+.third{
+  width: 100%;
+
+  background-color: white;
+  margin-bottom: 20rpx;
+  border-top: #efefef 1rpx solid;
+  border-bottom: #efefef 1rpx solid;
+  
+}
+.thirdtext{
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  display: flex;
+  justify-content: space-between;
+}
+#borderb{
+  border-bottom: #efefef 1rpx solid;
+}
+#colorr{
+  color: #F56262;
+} 
+#thirdtext1{
+  padding-left: 30rpx;
+  
+
+}
+#thirdtext2{
+  padding-right: 30rpx;
+
+}
+
+.fourth{
+  width: 100%;
+
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.thirdtext3{
+  font-size: 30rpx;
+  padding-right: 30rpx;
+  padding-top: 20rpx;
+  padding-bottom: 10rpx;
+  display: flex;
+  justify-content: flex-end;
+
+
+}
+.feet{
+  width: 100%;
+  position: absolute;
+  bottom: 0rpx
+
+
+}
+#feet{
+  background-color: #F56262;
+  color: #ffffff;
+  font-size: 30rpx;
+}

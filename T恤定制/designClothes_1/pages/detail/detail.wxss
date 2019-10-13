@@ -1,0 +1,162 @@
+.container{
+  background-color: whitesmoke;
+  width: 100%;
+  height: 1000rpx;
+}
+#container{
+  font-size: 26rpx;
+  font-family:"微软雅黑";
+}
+.pic{
+  width: 420rpx;
+  height: 436rpx;
+  margin-top: 60rpx;
+  margin-bottom: 60rpx;
+  
+  margin-left: 150rpx;
+}
+
+#detail{
+  position: relative;
+}
+.first{
+  background-color: white;
+  padding: 25rpx 30rpx 25rpx 30rpx;
+  border-style: solid;
+  border-color: white;
+  
+}
+#userpic{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 100rpx;
+  margin-top: -90rpx;
+
+
+}
+#username{
+  padding-left: 20rpx;
+  color: #666666;
+
+  font-size: 26rpx;
+  font-family:"微软雅黑";
+  
+}
+.title1{
+  padding-top: 20rpx;
+
+}
+#title1{
+  font-weight: bold;
+}
+.title2{
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 20rpx;
+}
+.title3{
+  font-size: 20rpx;
+  font-family:"微软雅黑";
+  color: #999999;
+
+}
+#price{
+  color: #F56262;
+  font-size: 36rpx;
+  font-family:"微软雅黑";
+  padding-top: 40rpx;
+  padding-right: 20rpx;
+  
+}
+.price-d{
+  border: #F56262 1rpx solid;
+  color: #F56262;
+  padding: 10rpx;
+}
+.line15rpx{
+  height: 15rpx;
+}
+.classname{
+  z-index: 1;
+  width: 100%;
+  height: 500rpx;
+  background-color: whitesmoke;
+  position: absolute;
+  margin-top: 100rpx;
+  
+}
+.classname1{
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-width: 1rpx;
+ 
+}
+.classname3{
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-width: 1rpx;
+  height:200rpx; 
+  width:100%;
+   margin: 10rpx 0 10rpx 0;
+}
+.buttons{
+  margin: 30rpx;
+  width: 20%;
+  height: 70rpx;
+  padding-top: 0px;
+  font-size: 30rpx;
+}
+.classname2{
+  display: flex;
+  justify-content: center;
+  height:100rpx;
+   width:100%;
+    margin: 30rpx 0 30rpx 0;
+}
+.chose{
+  width: 100%;
+  height: 50rpx;
+  background-color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#chose{
+  font-size: 26rpx;
+  font-family:"微软雅黑";
+  background-color: white;
+}
+.hidden{
+  z-index: 3;
+  position: absolute;
+  top: 102rpx;
+  height: 92%;
+  background:rgba(0,0,0,0.5);
+  
+}
+.detail{
+  margin-top: 2%;
+  width:100%;
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+}
+.detail-item{
+
+ display: flex;
+ align-items: center;
+ width: 30%;
+ height: 100rpx;
+ padding-left: 50rpx;
+}
+.buy{
+  margin-top: 50rpx;
+
+}
+#buy{
+  background-color: #F56262;
+  color: #ffffff;
+  font-size: 30rpx;
+  font-family:"微软雅黑";
+}

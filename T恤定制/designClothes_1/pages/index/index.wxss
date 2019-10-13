@@ -1,0 +1,257 @@
+text{
+    color: #4A4A4A;
+}
+.container{
+  height: 100%;
+}
+.status{
+  z-index: 1;
+  height: 100rpx;
+  background-color:#FFFFFF;
+  display: flex;
+  justify-content: center;
+  border-bottom-style: solid;
+  border-bottom-color: #F0F0F0;
+}
+.status-item{
+  border-style: hidden;
+  font-size: 30rpx;
+  font-family:"微软雅黑";
+  margin: 8rpx;
+  margin-right: 5px;
+  
+}
+#status-1{
+  border-style: hidden;
+  margin-left: 25%;
+  margin-right: 17%
+}
+#status-2{
+  
+  
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+  border-style: hidden;
+  background-color: #CBCBCB;
+  color: #ffffff;
+  height: 64rpx;
+  margin: 20rpx;
+
+}
+.hidden{
+  z-index: 3;
+  position: absolute;
+  top: 102rpx;
+  height: 92%;
+  background:rgba(0,0,0,0.5);
+  
+}
+
+#zoom1{
+  border-style:hidden;
+  position: absolute;
+  bottom: -30rpx;
+  right: -30rpx;
+  padding: 0px;
+  width: 60rpx;
+  height: 60rpx;
+}
+#zoom2{
+  position: absolute;
+  bottom: -30rpx;
+  left: -30rpx;
+  width: 60rpx;
+  height: 60rpx;
+}
+.hidden-item{
+  padding: 0px;
+  height: 100rpx;
+  display: flex;
+  background-color: #FFFFFF;
+  opacity: 1;
+}
+#hidden-item1{
+  padding: 15rpx;
+  width: 150rpx;
+  display: flex;
+  justify-content: center;
+  border-style: hidden;
+  font-family:"微软雅黑";
+  font-size: 26rpx;
+}
+#hidden-item-button{
+  
+  width: 800rpx;
+  height: 80rpx;
+  display: flex;
+  
+}
+
+.button-item1{
+  display: flex;
+  justify-content:flex-start;
+  
+  
+  border-style: hidden; 
+}
+.button-item2{
+  display: flex;
+  justify-content:flex-start;
+  width: 1380rpx;
+  
+  border-style: hidden; 
+}
+.button-item3{
+  display: flex;
+  justify-content:flex-start;
+  width: 1000rpx;
+  
+  border-style: hidden; 
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+  height: 54rpx;
+  margin:10rpx;
+  margin-top: 20rpx;
+
+}
+#buttons{
+  border-style: hidden;
+  font-family:"微软雅黑";
+  font-size: 26rpx;
+  color: #333333;  
+}
+#buttonchange1{
+  background-color: #FFD423;
+  border-style: hidden;
+  font-family:"微软雅黑";
+  font-size: 26rpx;
+  color: #333333; 
+}
+#buttonchange2{
+  background-color: #FFD423;
+  border-style: hidden;
+  font-family:"微软雅黑";
+  font-size: 26rpx;
+  color: #333333; 
+}
+#buttonchange3{
+  background-color: #FFD423;
+    border-style: hidden;
+  font-family:"微软雅黑";
+  font-size: 26rpx;
+  color: #333333; 
+}
+#clothespic{
+  background-color: #F4F7FA;
+  
+  
+}
+.pic{
+  width: 630rpx;
+  height: 656rpx;
+
+
+  background-repeat: round;
+  position: relative;
+  margin: 65rpx;
+  margin-top: 100rpx;
+  margin-bottom: 119rpx;
+
+
+
+}
+
+.pic-father{
+  position: absolute ;
+  width: 40%;
+  height: 180px;
+  left: 30%;
+  right: 30%;
+  border-style: dashed;
+  border-width: 1rpx;
+  border-color: #8F9193;
+  top: 150rpx;
+
+ 
+}
+.pic-child{
+  position: absolute;
+  top: 30rpx;
+  left: 10rpx;
+  width: 80%;
+  height: 100px;
+  background-color: yellow;
+}
+.chose{
+  width: 30%;
+  display: flex;
+  margin-left: 37%;
+  
+  
+  
+}
+.chosebutton{
+  border-radius: 0px;
+  flex-direction: row;
+  width: 50%;
+  height: 40rpx;
+  font-size: 25rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80rpx;
+}
+.but{
+  width: 30rpx;
+  height: 30rpx;
+  position: absolute;
+  right: 0rpx;
+  bottom: 0rpx;
+  border-radius: 0;
+ 
+}
+#cir-item1{
+  top: 600rpx;
+  left: 50rpx;
+}
+#cir-item2{
+  top: 750rpx;
+  left: 50rpx;
+}
+#cir-item3{
+  top: 900rpx;
+  left: 50rpx;
+}
+.cir-item{
+  position: absolute;
+  border-radius: 50rpx;
+  padding: 0px;
+  width: 115rpx;
+  height: 115rpx;
+  border-width: 0rpx;
+  border-style: hidden;
+  font-family:"微软雅黑";
+  color: #FFFFFF;
+  font-size: 30rpx;
+  align-content: center;
+}
+
+#it1{
+  z-index: 1;
+  top: 636rpx;
+  left: 76rpx;
+  
+}
+#it2{
+  z-index: 1;
+  top: 786rpx;
+  left: 76rpx;
+
+}
+#it3{
+  z-index: 1;
+  top: 936rpx;
+  left: 76rpx;
+}

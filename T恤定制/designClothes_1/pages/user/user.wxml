@@ -1,0 +1,28 @@
+<view class="classname">
+  <view class="first">
+  <image src="{{url}}" id="userpic"><text id="username">{{name}}</text></image>
+  </view>
+  <view class="second" catchtap="myorder">
+    <image src="../image/m_dingdan.png" style="height:50rpx;width:50rpx;"></image>
+    <view class="classname4">
+       <view id="all"  >全部订单</view>
+       <view id="seeall" >查看全部订单 > </view>
+    
+    </view>
+ 
+  </view>
+  <view class="third" id="third">
+      <view class=""style="width:130rpx;" catchtap="myorderpay"><image src="../image/m_daifukuan.png" id="third_pic"></image>待付款</view>
+      <view class=""style="width:130rpx;" catchtap="myordersend"><image src="../image/m_daifahuo.png" id="third_pic"></image>待发货</view>
+      <view class=""style="width:130rpx;" catchtap="myordertake"><image src="../image/m_daishouhuo.png" id="third_pic"></image>待收货</view>
+
+  </view>
+  <view class="fourth" id="fourth" catchtap="addresslist">
+    <image src="../image/m_dizhi.png" style="margin-right:10rpx;height:50rpx;width:50rpx;"></image><text id="addr" >我的收货地址</text>
+  </view>
+  <view class="fifth" id="fifth">
+    <image src="../image/m_lianxiwomen.png" style="margin-right:5rpx;height:50rpx;width:50rpx;"></image>联系我们
+  </view>
+  
+
+</view>
